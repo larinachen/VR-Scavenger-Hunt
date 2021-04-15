@@ -13,15 +13,24 @@
     <div id="room_selection">
         <h2>Select a room to begin exploring</h2>
         <div id="grid-container">
-        <div><img class="grid-item" src="assets/images/stairs.jpg" onclick="gotoroom()"> <p>stairs</p></div>
-        <div><img class="grid-item" src="assets/images/hallway.jpg" onclick="gotoroom()"> <p>hallway</p></div>
-        <div><img class="grid-item" src="assets/images/bedroom.jpg" onclick="gotoroom()"> <p>bedroom</p></div>
-        <div><img class="grid-item" src="assets/images/bathroom.jpg" onclick="gotoroom()"> <p>bathroom</p></div>
-        <div><img class="grid-item" src="assets/images/kitchen.jpg" onclick="gotoroom()"> <p>kitchen</p></div>
-        <div><img class="grid-item" src="assets/images/livingroom.jpg" onclick="gotoroom()"> <p>living room</p></div>
+        <div><img class="grid-item" src="assets/images/stairs.jpg" onclick="gotoroom('stairs')"> <p>stairs</p></div>
+        <div><img class="grid-item" src="assets/images/hallway.jpg" onclick="gotoroom('hallway')"> <p>hallway</p></div>
+        <div><img class="grid-item" src="assets/images/bedroom.jpg" onclick="gotoroom('bedroom')"> <p>bedroom</p></div>
+        <div><img class="grid-item" src="assets/images/bathroom.jpg" onclick="gotoroom('bathroom')"> <p>bathroom</p></div>
+        <div><img class="grid-item" src="assets/images/kitchen.jpg" onclick="gotoroom('kitchen')"> <p>kitchen</p></div>
+        <div><img class="grid-item" src="assets/images/livingroom.jpg" onclick="gotoroom('livingroom')"> <p>living room</p></div>
         </div>
     </div>
     
+
+    <script>
+        function gotoroom(room){
+            let loc = 'http://127.0.0.1:5500/' + room + '.html'
+            window.location.href = loc;
+        }
+    </script>
+
+
     </body>
 
 </html>
