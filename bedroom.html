@@ -12,7 +12,7 @@
   <body>
     <a-scene>
     <a-sky src="assets/images/bedroom.jpg" rotation="0 -130 0"></a-sky>
-	<a-text value="Total: 4" position="-8 5 -5" width="5"></a-text>
+	<a-text value="Total: 5" position="-8 5 -5" width="5"></a-text>
 	<a-camera>
 		<a-cursor></a-cursor>
 	</a-camera>
@@ -42,9 +42,17 @@
 				event-set__makeinvisible="_event: mouseleave; visible: false">
     </a-text>
     
-    <a-text value="A lot of things happened here heheheh..."
-    			position="0 -6 15" visible="false" rotation="0 -55 0"
+	<a-text value="Giddy in your scent & your love through your surprise hoodie."
+    			position="-9 6 -12" visible="false" rotation="0 30 0"
     			geometry="primitive: plane; width:5.5; height: 3.8; opacity:0.5" material="color:#333"
+    			align="center" width="5" height="10" wrap-count="18" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+    </a-text>
+
+    <a-text value="A lot of things happened here heheheh... A first taste of the teenage dream"
+    			position="-5 -10 -1" visible="false" rotation="-45 15 10"
+    			geometry="primitive: plane; width:5.5; height: 4; opacity:0.5" material="color:#333"
     			align="center" width="5" height="10" wrap-count="18" 
     			event-set__makevisible="_event: mouseenter; visible: true"
 				event-set__makeinvisible="_event: mouseleave; visible: false">

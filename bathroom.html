@@ -11,11 +11,50 @@
     <body>
         <a-scene>
             <a-sky src="assets/images/bathroom.jpg" rotation="0 -130 0"></a-sky>
-            <a-text value="Total: 4" position="-8 5 -5" width="5"></a-text>
+            <a-text value="Total: 5" position="-4 4 -6" width="5"></a-text>
             <a-camera>
                 <a-cursor></a-cursor>
             </a-camera>
 
+            <a-text value="Because of you I actually started using towels > w <"
+    			position="-8 4 -14" visible="false" rotation="0 20 0"
+    			geometry="primitive: plane; width:5; height: 4; opacity:0.5" material="color:#333"
+    			align="center" width="5" height="10" wrap-count="18" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text>
+
+            <a-text value="Kiss here"
+    			position="16 4 -6" visible="false" rotation="0 -80 0"
+    			geometry="primitive: plane; width:5; height: 3; opacity:0.5" material="color:#333"
+    			align="center" width="5" height="10" wrap-count="12" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text>
+
+            <a-text value="I C (also help) U P"
+    			position="10 -24 14" visible="false" rotation="-50 -140 0"
+    			geometry="primitive: plane; width:18; height: 5; opacity:0.5" material="color:#333"
+    			align="center" width="18" height="10" wrap-count="20" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text>
+
+            <a-text value="Got pretty *clean* here together a few times ;) And ... oh how adorable you look in that pink bathrobe! I love that you can just be so relaxed and just down to mess around with me."
+    			position="16 4 8" visible="false" rotation="0 -130 0"
+    			geometry="primitive: plane; width:5; height: 5; opacity:0.5" material="color:#333"
+    			align="center" width="5" height="10" wrap-count="18" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text>
+
+            <a-text value="... And when you hug me from behind and our reflection in the mirror looks just perfect <3"
+    			position="16 -6 -6" visible="false" rotation="0 -80 0"
+    			geometry="primitive: plane; width:7; height: 5; opacity:0.5" material="color:#333"
+    			align="center" width="5" height="10" wrap-count="15" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text>
 
         </a-scene>
     </body>

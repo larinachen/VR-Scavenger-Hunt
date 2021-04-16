@@ -11,11 +11,34 @@
     <body>
         <a-scene>
             <a-sky src="assets/images/livingroom.jpg" rotation="0 -130 0"></a-sky>
-            <a-text value="Total: 4" position="-8 5 -5" width="5"></a-text>
+            <a-text value="Total: 3" position="-10 5 -1" width="8" rotation="0 40 0"></a-text>
             <a-camera>
                 <a-cursor></a-cursor>
             </a-camera>
 
+            <a-text value="We did it here. And played Minecraft, cuddled in a pile, kissed and kissed and kissed... this is OUR couch. (wow couches really help moving our relationship forward huh)"
+    			position="-1 -8 -18" visible="false" rotation="-25 0 0"
+    			geometry="primitive: plane; width:8.5; height: 9; opacity:0.5" material="color:#333"
+    			align="center" width="8" height="10" wrap-count="18" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text>
+
+            <a-text value="My favourite position :))))"
+    			position="-8 -8 -10" visible="false" rotation="0 30 0"
+    			geometry="primitive: plane; width:5; height: 3; opacity:0.5" material="color:#333"
+    			align="center" width="5" height="10" wrap-count="12" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text>
+
+            <a-text value="A beautiful ring from a beautiful person and wonderful boyfriend. When I wear your ring I feel safer in my endeavours because I know you are there to cheer me on and comfort me."
+    			position="-22 6 -12" visible="false" rotation="0 40 0"
+    			geometry="primitive: plane; width:8; height: 8; opacity:0.5" material="color:#333"
+    			align="center" width="7.5" height="10" wrap-count="18" 
+    			event-set__makevisible="_event: mouseenter; visible: true"
+				event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text>
 
         </a-scene>
     </body>

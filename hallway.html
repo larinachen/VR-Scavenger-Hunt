@@ -11,12 +11,34 @@
     <body>
         <a-scene>
             <a-sky src="assets/images/hallway.jpg" rotation="0 -130 0"></a-sky>
-            <a-text value="Total: 4" position="-8 5 -5" width="5"></a-text>
+            <a-text value="Total: 3" position="-8 5 -5" width="5"></a-text>
             <a-camera>
                 <a-cursor></a-cursor>
             </a-camera>
 
+            <a-text value="I made you sanitize everything when you come inside and you always replied with 'eeghhshuughh' but always did it without me even mentioning. What an old married couple."
+                position="14 3 3" visible="false" rotation="-5 -90 0"
+                geometry="primitive: plane; width:5; height: 5; opacity:0.5" material="color:#333"
+                align="center" width="4" height="10" wrap-count="18" 
+                event-set__makevisible="_event: mouseenter; visible: true"
+                event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text> 
 
+            <a-text value="Shh don't peek! I'm in my prom dress waiting at the end of the hallway for you love."
+                position="12 7 -4" visible="false" rotation="10 -80 0"
+                geometry="primitive: plane; width:5; height: 4; opacity:0.5" material="color:#333"
+                align="center" width="4" height="10" wrap-count="16" 
+                event-set__makevisible="_event: mouseenter; visible: true"
+                event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text> 
+
+            <a-text value="You took me on a walk in this hallway and melted my heart again with your 1st anniversary present. You knew I loved surprises and always find a way to melt my heart with them."
+                position="-4 7 -10" visible="false" rotation="10 10 0"
+                geometry="primitive: plane; width:5; height: 5; opacity:0.5" material="color:#333"
+                align="center" width="4" height="10" wrap-count="20" 
+                event-set__makevisible="_event: mouseenter; visible: true"
+                event-set__makeinvisible="_event: mouseleave; visible: false">
+            </a-text> 
         </a-scene>
     </body>
 
